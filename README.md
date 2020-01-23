@@ -24,7 +24,7 @@ Configure the appsettings.Development.json database connection string accordingl
 Make sure your database user has permissions.
 
 Next you need to configure the auth_config.json -file in /client-app/src folder.
-Set up the auth0 domain and clientId from the Auth0 dashboard after you have logged in and created an app to the service.
+Set up the auth0 domain and clientId with the information you get from the Auth0 dashboard after you have logged in and created an app to the service.
 ## Usage
 Start the server from the root directory
 ```bash
