@@ -25,6 +25,16 @@ Make sure your database user has permissions.
 
 Next you need to configure the auth_config.json -file in /client-app/src folder.
 Set up the auth0 domain and clientId with the information you get from the Auth0 dashboard after you have logged in and created an app to the service.
+
+Generate the tables to your database 
+```bash
+dotnet ef database update
+```
+If you make any updates to the models you can update your database with [more information here](https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet)
+```bash
+dotnet ef migrations add
+dotnet ef database update
+```
 ## Usage
 Start the server from the root directory
 ```bash
