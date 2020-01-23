@@ -4,7 +4,7 @@ Backend is built on top of the **dotnet new webapi** template, version 3.1. Enti
 
 ## Requirements
 - [.NET Core 3.1](https://dotnet.microsoft.com/download)
-- [Node 10.16 or newer + npm (included with Node)]https://nodejs.org/en/
+- [Node 10.16 or newer + npm (included with Node)](https://nodejs.org/en/)
 - [Auth0 account](https://auth0.com/)
 - [Postgres database](https://www.postgresql.org/)
 
